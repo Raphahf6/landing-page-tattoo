@@ -23,12 +23,17 @@ export function Demo() {
             {/* Mockup Image */}
             <div className="relative z-10 rounded-lg overflow-hidden border-2 border-white/10 group-hover:border-[#64FFDA]/50 transition-all duration-300">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1735659494460-4ee03cb578ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBwaG9uZSUyMG1vY2t1cCUyMHNjcmVlbnxlbnwxfHx8fDE3NjA3MTY3Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/mock-demo.png"
                 alt="Demonstração do site para tatuadores"
                 className="w-full h-auto"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/80 via-transparent to-transparent flex items-end justify-center p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                 <a
+                href="https://demo-site-tattoo.rebdigitalsolucoes.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button 
                   className="bg-[#64FFDA] hover:bg-[#52E5C8] text-[#121212]"
                   style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700 }}
@@ -36,6 +41,7 @@ export function Demo() {
                   <ExternalLink className="w-4 h-4 mr-2" />
                   Ver Demonstração ao Vivo
                 </Button>
+                </a>
               </div>
             </div>
 
@@ -44,14 +50,21 @@ export function Demo() {
           </div>
 
           <div className="text-center mt-8">
+             <a
+                href="https://demo-site-tattoo.rebdigitalsolucoes.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
             <Button 
               variant="outline"
               className="border-[#64FFDA] text-[#64FFDA] hover:bg-[#64FFDA] hover:text-[#121212]"
               style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700 }}
             >
+              
               <ExternalLink className="w-4 h-4 mr-2" />
               VER DEMONSTRAÇÃO AO VIVO
             </Button>
+            </a>
           </div>
         </div>
       </div>
