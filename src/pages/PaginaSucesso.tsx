@@ -109,7 +109,7 @@ export default function PaymentSuccess() {
                     1. Verifique seu E-mail
                   </h3>
                   <p className="text-[#E2E8F0] opacity-90">
-                    Enviamos um e-mail de confirmação com todas as instruções e um link para você enviar suas fotos e informações. Verifique também a caixa de spam.
+                    Enviaremos um e-mail de confirmação com todas as instruções e um link para você enviar suas fotos e informações. Verifique também a caixa de spam. Ou se preferir entre em contato conosco via whatsapp
                   </p>
                 </div>
               </div>

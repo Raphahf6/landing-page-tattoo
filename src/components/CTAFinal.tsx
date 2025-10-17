@@ -36,13 +36,19 @@ export function CTAFinal() {
             </p>
 
             <div className="space-y-4">
-              <Button 
-                size="lg"
-                className="bg-[#64FFDA] hover:bg-[#52E5C8] text-[#121212] px-12 py-8 shadow-2xl shadow-[#64FFDA]/20"
-                style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, fontSize: '1.375rem' }}
-              >
-                GARANTIR MEU SITE POR R$ 150 AGORA
-              </Button>
+             <a 
+  href="https://mpago.la/1rZJnhS" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button 
+    size="lg"
+    className="bg-[#64FFDA] hover:bg-[#52E5C8] text-[#121212] px-12 py-8 shadow-2xl shadow-[#64FFDA]/20"
+    style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, fontSize: '1.375rem' }}
+  >
+    GARANTIR MEU SITE POR R$ 150 AGORA
+  </Button>
+</a>
 
               <div className="flex items-center justify-center gap-6 text-[#E2E8F0] opacity-75">
                 <div className="flex items-center gap-2">
