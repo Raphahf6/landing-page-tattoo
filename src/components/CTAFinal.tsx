@@ -8,7 +8,7 @@ export function CTAFinal() {
         <div className="bg-gradient-to-br from-[#64FFDA]/10 to-transparent border-2 border-[#64FFDA]/50 rounded-2xl p-12 text-center relative overflow-hidden">
           {/* Background pattern */}
           <div className="absolute inset-0 opacity-5">
-            <div className="absolute inset-0" style={{ 
+            <div className="absolute inset-0" style={{
               backgroundImage: 'radial-gradient(circle, #64FFDA 1px, transparent 1px)',
               backgroundSize: '40px 40px'
             }}></div>
@@ -24,31 +24,31 @@ export function CTAFinal() {
               </div>
             </div>
 
-            <h2 
+            <h2
               className="text-white mb-4"
               style={{ fontFamily: 'Bebas Neue, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 400 }}
             >
               Sua chance de ter um portfólio profissional por um preço inacreditável
             </h2>
-            
+
             <p className="text-[#E2E8F0] opacity-90 mb-8 max-w-2xl mx-auto" style={{ fontSize: '1.125rem' }}>
               Esta oferta é por tempo limitado. Não deixe seu estúdio ficar para trás enquanto outros tatuadores já estão conquistando mais clientes online.
             </p>
 
             <div className="space-y-4">
-             <a 
-  href="https://mpago.la/1rZJnhS" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
-  <Button 
-    size="lg"
-    className="bg-[#64FFDA] hover:bg-[#52E5C8] text-[#121212] px-12 py-8 shadow-2xl shadow-[#64FFDA]/20"
-    style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, fontSize: '1.375rem' }}
-  >
-    GARANTIR MEU SITE POR R$ 150 AGORA
-  </Button>
-</a>
+              <a
+                href="https://mpago.la/1rZJnhS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-[#64FFDA] hover:bg-[#52E5C8] text-[#121212] px-12 py-8 shadow-2xl shadow-[#64FFDA]/20"
+                  style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, fontSize: '1.125rem', whiteSpace:'normal', wordwrap:'break-word', maxWidth:'100%'}}
+                >
+                  GARANTIR MEU SITE AGORA ✅
+                </Button>
+              </a>
 
               <div className="flex items-center justify-center gap-6 text-[#E2E8F0] opacity-75">
                 <div className="flex items-center gap-2">
