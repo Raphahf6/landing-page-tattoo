@@ -9,7 +9,7 @@ export function Footer() {
             <a href="/" aria-label="Página Inicial da R&B Digital">
               {/* Usamos a tag <img> padrão do HTML */}
               <img
-                src="./logo.png" // O caminho para a imagem na pasta 'public'
+                src="/logo.png" // O caminho para a imagem na pasta 'public'
                 alt="Logo R&B Digital"
                 className="h-10 w-auto" // Controlamos o tamanho com classes do Tailwind
               />
