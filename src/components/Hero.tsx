@@ -26,7 +26,7 @@ export function Hero() {
                 lineHeight: 1.1
               }}
             >
-              Sua Arte Merece Mais que o Instagram.
+              Seu estudio de tatuagem no proximo nivel
             </h1>
             <p className="text-[#E2E8F0] opacity-90" style={{ fontSize: '1.125rem', lineHeight: 1.6 }}>
               Tatuadores estão se transformando através de um site portfólio profissional que atrai clientes sérios e fecha agendamentos.
@@ -69,7 +69,7 @@ export function Hero() {
         <div className="relative">
           <div className="relative z-10">
             <ImageWithFallback 
-              src="https://images.unsplash.com/photo-1507737487170-feae809cb2ab?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880"
+              src="/hero-img.png"
               alt="Mockup de site profissional para tatuadores"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
