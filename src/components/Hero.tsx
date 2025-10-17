@@ -29,7 +29,7 @@ export function Hero() {
               Sua Arte Merece Mais que o Instagram.
             </h1>
             <p className="text-[#E2E8F0] opacity-90" style={{ fontSize: '1.125rem', lineHeight: 1.6 }}>
-              Transforme seu perfil em um portfólio profissional que atrai clientes sérios e fecha agendamentos.
+              Tatuadores estão se transformando através de um site portfólio profissional que atrai clientes sérios e fecha agendamentos.
             </p>
           </div>
 
