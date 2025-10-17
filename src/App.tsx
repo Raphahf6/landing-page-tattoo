@@ -1,22 +1,21 @@
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { ProblemSolution } from "./components/ProblemSolution";
-import { Features } from "./components/Features";
-import { Demo } from "./components/Demo";
-import { FAQ } from "./components/FAQ";
-import { CTAFinal } from "./components/CTAFinal";
-import { Footer } from "./components/Footer";
+// src/App.tsx
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PaginaPrincipal from './pages/PaginaPrincipal'; // Importa a página que acabamos de criar
+import PaginaSucesso from './pages/PaginaSucesso';   // Importa a página de sucesso
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#121212]" style={{ fontFamily: 'Inter, sans-serif' }}>
-      <Hero />
-      <ProblemSolution />
-      <Features />
-      <Demo />
-      <FAQ />
-      <CTAFinal />
-      <Footer />
+      <Router>
+        <Routes>
+          {/* Rota para a página inicial */}
+          <Route path="/" element={<PaginaPrincipal />} />
+          
+          {/* Rota para a página de sucesso */}
+          <Route path="/sucesso" element={<PaginaSucesso />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
