@@ -20,11 +20,7 @@ export function Footer() {
             © {new Date().getFullYear()} R&B Digital. Todos os direitos reservados.
           </p>
 
-          <div className="flex gap-4 text-[#9CA3AF]" style={{ fontSize: '0.875rem' }}>
-            <a href="#" className="hover:text-[#64FFDA] transition-colors">Termos de Uso</a>
-            <span>•</span>
-            <a href="#" className="hover:text-[#64FFDA] transition-colors">Privacidade</a>
-          </div>
+          
         </div>
       </div>
     </footer>
