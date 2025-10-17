@@ -30,6 +30,10 @@ export function FAQ() {
     {
       question: "O site funciona bem no celular?",
       answer: "Com certeza! Todos os nossos sites são 100% responsivos, ou seja, funcionam perfeitamente em celulares, tablets e computadores."
+    },
+    {
+      question: "Posso alterar o modelo com minha paleta de cores e estilo?",
+      answer: "Sim! Personalizamos o site com suas cores, fontes e estilo para refletir a identidade do seu estúdio de tatuagem."
     }
   ];
 
